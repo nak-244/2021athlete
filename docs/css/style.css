@@ -78,14 +78,14 @@
   font-display: block;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Reset
 ====================================================================
 
  ***/
- 
+
 * {
 	margin:0px;
 	padding:0px;
@@ -93,7 +93,7 @@
 	outline:none;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Global Settings
@@ -138,7 +138,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 input,button,select,textarea{
-	
+
 }
 
 textarea{
@@ -147,7 +147,7 @@ textarea{
 
 p{
 	position:relative;
-	line-height:1.8em;	
+	line-height:1.8em;
 }
 
 /* Typography */
@@ -197,7 +197,7 @@ h6{
 ul,li{
 	list-style:none;
 	padding:0px;
-	margin:0px;	
+	margin:0px;
 }
 
 img{
@@ -216,7 +216,7 @@ img{
 }
 
 .centered{
-	text-align:center;	
+	text-align:center;
 }
 
 /***
@@ -364,7 +364,7 @@ img{
 .btn-style-one .txt{
 	position:relative;
 	z-index:1;
-	
+
 }
 
 .btn-style-one:before{
@@ -422,7 +422,7 @@ img{
 .btn-style-two .txt{
 	position:relative;
 	z-index:1;
-	
+
 }
 
 .btn-style-two:before{
@@ -669,17 +669,17 @@ img{
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #000000; 
+  background: #000000;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #ffffff; 
+  background: #ffffff;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555; 
+  background: #555;
 }
 
 /*=== Preloder ===*/
@@ -738,10 +738,10 @@ img{
 img{
 	display:inline-block;
 	max-width:100%;
-	height:auto;	
+	height:auto;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Section Title
@@ -787,7 +787,7 @@ img{
 	text-align: center;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Section Title Two
@@ -842,7 +842,7 @@ img{
 	opacity:0.70;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Main Header style
@@ -890,7 +890,7 @@ img{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;	
+	transition:all 300ms ease;
 }
 
 .main-header .header-upper .mobile-logo{
@@ -978,7 +978,7 @@ img{
 	text-transform:uppercase;
 	font-family: 'Poppins', sans-serif;
 }
- 
+
 .main-header .sticky-header .navbar-header{
 	display:none;
 }
@@ -1294,7 +1294,7 @@ img{
 	-moz-animation-iteration-count: 1;
 	-op-animation-iteration-count: 1;
 	-webkit-animation-iteration-count: 1;
-	animation-iteration-count: 1;	
+	animation-iteration-count: 1;
 }
 
 .main-menu .navigation > li > a{
@@ -1355,7 +1355,7 @@ img{
 
 .main-menu .navigation > li > ul.from-right{
 	left:auto;
-	right:0px;	
+	right:0px;
 }
 
 .main-menu .navigation > li > ul > li{
@@ -1413,7 +1413,7 @@ img{
 	font-size:16px;
 	font-weight:normal;
 	text-align:center;
-	z-index:5;	
+	z-index:5;
 }
 
 .main-menu .navigation > li > ul > li.dropdown:hover > a:after{
@@ -1439,7 +1439,7 @@ img{
 
 .main-menu .navigation > li > ul > li > ul.from-right{
 	left:auto;
-	right:0px;	
+	right:0px;
 }
 
 .main-menu .navigation > li > ul > li > ul > li{
@@ -1449,7 +1449,7 @@ img{
 }
 
 .main-menu .navigation > li > ul > li > ul > li:last-child{
-	border-bottom:none;	
+	border-bottom:none;
 }
 
 .main-menu .navigation > li > ul > li > ul > li > a{
@@ -1488,11 +1488,11 @@ img{
 	font-size:16px;
 	font-weight:normal;
 	text-align:center;
-	z-index:5;	
+	z-index:5;
 }
 
 .main-menu .navigation > li > ul > li > ul > li.dropdown:hover > a:after{
-	color:#ffffff;	
+	color:#ffffff;
 }
 
 .main-menu .navigation > li.dropdown:hover > ul{
@@ -1520,7 +1520,7 @@ img{
 	-moz-transition:all 300ms ease;
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 300ms ease;
-	-o-transition:all 300ms ease;	
+	-o-transition:all 300ms ease;
 }
 
 .main-menu .navbar-collapse > ul li.dropdown .dropdown-btn{
@@ -1594,7 +1594,7 @@ body.visible-menu-bar .fullscreen-menu{
 	width:100%;
 	height:100%;
 	display:table;
-	vertical-align:middle;	
+	vertical-align:middle;
 	transition:all 300ms ease;
 	-webkit-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
@@ -1605,7 +1605,7 @@ body.visible-menu-bar .fullscreen-menu{
 	position:relative;
 	width:100%;
 	display:table-cell;
-	vertical-align:middle;	
+	vertical-align:middle;
 }
 
 .fullscreen-menu .full-menu{
@@ -1657,11 +1657,11 @@ body.visible-menu-bar .fullscreen-menu{
 .fullscreen-menu .full-menu .navigation > li > ul > li{
 	position:relative;
 	display:block;
-	margin-bottom:6px;	
+	margin-bottom:6px;
 }
 
 .fullscreen-menu .full-menu .navigation > li > ul > li:last-child{
-	margin-bottom:0px;	
+	margin-bottom:0px;
 }
 
 .fullscreen-menu .full-menu .navigation > li > ul > li > a{
@@ -1700,7 +1700,7 @@ body.visible-menu-bar .fullscreen-menu{
 	border-bottom:1px solid #ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Scroll To Top style
@@ -1727,7 +1727,7 @@ body.visible-menu-bar .fullscreen-menu{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;		
+	transition:all 300ms ease;
 }
 
 .scroll-to-toped:hover{
@@ -1735,7 +1735,7 @@ body.visible-menu-bar .fullscreen-menu{
 	background:#000000;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Mobile Menu
@@ -1769,7 +1769,7 @@ body.visible-menu-bar .fullscreen-menu{
 .mobile-menu .nav-logo{
 	position:relative;
 	padding:50px 20px 10px;
-	text-align:left;	
+	text-align:left;
 }
 
 .mobile-menu .nav-logo img{
@@ -1908,7 +1908,7 @@ body.visible-menu-bar .fullscreen-menu{
 
 .mobile-menu .navigation li:hover > a,
 .mobile-menu .navigation li.current > a{
-	color:#ffffff;	
+	color:#ffffff;
 }
 
 .mobile-menu .navigation li.dropdown .dropdown-btn{
@@ -1948,7 +1948,7 @@ body.visible-menu-bar .fullscreen-menu{
 	display: none;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Banner Section
@@ -2091,7 +2091,7 @@ body.visible-menu-bar .fullscreen-menu{
 }
 
 .banner-section .boxed-column .theme-btn{
-	
+
 }
 
 .banner-section .owl-dots{
@@ -2260,7 +2260,7 @@ body.visible-menu-bar .fullscreen-menu{
 	position:relative;
 	top:6px;
 	text-indent:0px;
-	color:#333333;	
+	color:#333333;
 }
 
 .form-group .ui-button .ui-icon:before{
@@ -2291,7 +2291,7 @@ body.visible-menu-bar .fullscreen-menu{
 }
 
 .ui-menu .ui-menu-item:last-child{
-	border:none;	
+	border:none;
 }
 
 .ui-state-active, .ui-widget-content .ui-state-active{
@@ -2311,7 +2311,7 @@ body.visible-menu-bar .fullscreen-menu{
 	background-color:#000000;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Testimonial Section
@@ -2452,7 +2452,7 @@ body.visible-menu-bar .fullscreen-menu{
 }
 
 .service-block .inner-box:hover .overlay-box{
-	
+
 }
 
 .service-block .inner-box .overlay-box:before{
@@ -2587,7 +2587,7 @@ body.visible-menu-bar .fullscreen-menu{
 	font-size:14px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	We Are Section
@@ -2751,7 +2751,7 @@ body.visible-menu-bar .fullscreen-menu{
 	margin-top:80px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Gallery Section
@@ -2904,7 +2904,7 @@ body.visible-menu-bar .fullscreen-menu{
 	background-color:#ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Counter Section
@@ -2989,7 +2989,7 @@ body.visible-menu-bar .fullscreen-menu{
 	margin-top:0px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Pricing Section
@@ -3127,7 +3127,7 @@ body.visible-menu-bar .fullscreen-menu{
 	cursor:pointer;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Coaches Section
@@ -3347,7 +3347,7 @@ body.visible-menu-bar .fullscreen-menu{
 	z-index:999;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Calculator Section
@@ -3470,7 +3470,7 @@ body.visible-menu-bar .fullscreen-menu{
 	float:left;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Testimonial Section
@@ -3642,15 +3642,15 @@ body.visible-menu-bar .fullscreen-menu{
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;	
+	transition:all 300ms ease;
 }
 
 .testimonial-section-two .client-thumb-outer .owl-item{
-	z-index:0;	
+	z-index:0;
 }
 
 .testimonial-section-two .client-thumb-outer .owl-item.active{
-	z-index:10;	
+	z-index:10;
 }
 
 .testimonial-section-two .client-thumb-outer .client-thumbs-carousel .thumb-item img{
@@ -3663,10 +3663,10 @@ body.visible-menu-bar .fullscreen-menu{
 
 .testimonial-section-two .owl-nav,
 .testimonial-section-two .owl-dots{
-    
+
 }
 
-/*** 
+/***
 
 ====================================================================
 	News Section
@@ -4212,7 +4212,7 @@ body.visible-menu-bar .fullscreen-menu{
 	font-family: 'Poppins', sans-serif;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Banner Section Two
@@ -4648,7 +4648,7 @@ body.visible-menu-bar .fullscreen-menu{
 	z-index: 9;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Fluid Section One
@@ -4679,7 +4679,7 @@ body.visible-menu-bar .fullscreen-menu{
 
 .fluid-section-one .image-column .image-box{
 	position:relative;
-	display:none;	
+	display:none;
 }
 
 .fluid-section-one .image-column .image-box img{
@@ -4789,7 +4789,7 @@ body.visible-menu-bar .fullscreen-menu{
 	opacity:1;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Fluid Section Two
@@ -4810,7 +4810,7 @@ body.visible-menu-bar .fullscreen-menu{
 	font-size:170px;
 	font-weight:700;
 	line-height:130px;
-	
+
 	color: transparent;
 	-webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #e5e5e5;
@@ -4830,7 +4830,7 @@ body.visible-menu-bar .fullscreen-menu{
 	height:100%;
 	background-repeat:no-repeat;
 	background-position:center center;
-	background-size:cover;	
+	background-size:cover;
 }
 
 .fluid-section-two .image-column:before{
@@ -4850,7 +4850,7 @@ body.visible-menu-bar .fullscreen-menu{
 
 .fluid-section-two .image-column .image-box{
 	position:relative;
-	display:none;	
+	display:none;
 }
 
 .fluid-section-two .image-column .image-box img{
@@ -4889,7 +4889,7 @@ body.visible-menu-bar .fullscreen-menu{
 	font-family: 'Poppins', sans-serif;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Gallery Section Two
@@ -4967,7 +4967,7 @@ body.visible-menu-bar .fullscreen-menu{
 	opacity:1;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Fluid Section Three
@@ -4994,7 +4994,7 @@ body.visible-menu-bar .fullscreen-menu{
 	height:100%;
 	background-repeat:no-repeat;
 	background-position:center center;
-	background-size:cover;	
+	background-size:cover;
 }
 
 .fluid-section-three .image-column:before{
@@ -5014,7 +5014,7 @@ body.visible-menu-bar .fullscreen-menu{
 
 .fluid-section-three .image-column .image-box{
 	position:relative;
-	display:none;	
+	display:none;
 }
 
 .fluid-section-three .image-column .image-box img{
@@ -5066,7 +5066,7 @@ body.visible-menu-bar .fullscreen-menu{
 	margin-top:50px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Timing Section
@@ -5127,7 +5127,7 @@ body.visible-menu-bar .fullscreen-menu{
 }
 
 .timing-section .timing-info-tabs .timing-tabs .tabs-content{
-	position:relative;	
+	position:relative;
 }
 
 .timing-section .timing-info-tabs .timing-tabs .tabs-content .tab{
@@ -5136,10 +5136,10 @@ body.visible-menu-bar .fullscreen-menu{
 }
 
 .timing-section .timing-info-tabs .timing-tabs .tabs-content .tab.active-tab{
-	display:block;	
+	display:block;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Fluid Section Four
@@ -5166,7 +5166,7 @@ body.visible-menu-bar .fullscreen-menu{
 	height:100%;
 	background-repeat:no-repeat;
 	background-position:center center;
-	background-size:cover;	
+	background-size:cover;
 }
 
 .fluid-section-four .image-column:before{
@@ -5186,7 +5186,7 @@ body.visible-menu-bar .fullscreen-menu{
 
 .fluid-section-four .image-column .image-box{
 	position:relative;
-	display:none;	
+	display:none;
 }
 
 .fluid-section-four .image-column .image-box img{
@@ -5208,7 +5208,7 @@ body.visible-menu-bar .fullscreen-menu{
 	padding:100px 0px 75px 80px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Accordion Style
@@ -5226,7 +5226,7 @@ body.visible-menu-bar .fullscreen-menu{
 }
 
 .accordion-box .block.active-block{
-	
+
 }
 
 .accordion-box .block .acc-btn{
@@ -5242,7 +5242,7 @@ body.visible-menu-bar .fullscreen-menu{
 }
 
 .accordion-box .block .acc-btn.active{
-	
+
 }
 
 .accordion-box .block .acc-content{
@@ -5251,7 +5251,7 @@ body.visible-menu-bar .fullscreen-menu{
 }
 
 .accordion-box .block .acc-content.current{
-	display:block;	
+	display:block;
 }
 
 .accordion-box .block .content{
@@ -5261,7 +5261,7 @@ body.visible-menu-bar .fullscreen-menu{
 
 .accordion-box .block .content .accordian-text{
 	line-height:1.9em;
-	font-size:16px;	
+	font-size:16px;
 	color:#84858a;
 	font-weight:600;
 }
@@ -5334,7 +5334,7 @@ body.visible-menu-bar .fullscreen-menu{
 	font-family: 'Poppins', sans-serif;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Fluid Section Five
@@ -5497,7 +5497,7 @@ body.visible-menu-bar .fullscreen-menu{
 	padding:0px 60px 50px 80px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Testimonial Section Three
@@ -5557,7 +5557,7 @@ body.visible-menu-bar .fullscreen-menu{
 	top:auto;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Fluid Section Six
@@ -5586,7 +5586,7 @@ body.visible-menu-bar .fullscreen-menu{
 
 .fluid-section-six .image-column .image-box{
 	position:relative;
-	display:none;	
+	display:none;
 }
 
 .fluid-section-six .image-column .image-box img{
@@ -5608,7 +5608,7 @@ body.visible-menu-bar .fullscreen-menu{
 	padding:100px 0px 75px 60px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Page Title
@@ -5762,7 +5762,7 @@ body.visible-menu-bar .fullscreen-menu{
     -webkit-text-stroke-color: #fff;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Countdown style
@@ -5808,7 +5808,7 @@ body.visible-menu-bar .fullscreen-menu{
 	font-family: 'MonumentExtended-Ultrabold';
 }
 
-/*** 
+/***
 
 ====================================================================
 	Sidebar Page Container
@@ -6077,7 +6077,7 @@ body.visible-menu-bar .fullscreen-menu{
 	color:#ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Comment Form
@@ -6093,7 +6093,7 @@ body.visible-menu-bar .fullscreen-menu{
 .comment-form .group-title h3{
 	position:relative;
 	color:#ffffff;
-	margin-bottom:10px;	
+	margin-bottom:10px;
 	text-transform:uppercase;
 }
 
@@ -6400,7 +6400,7 @@ body.visible-menu-bar .fullscreen-menu{
 	background:#ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Blog Page Section
@@ -6443,7 +6443,7 @@ body.visible-menu-bar .fullscreen-menu{
 	text-decoration:underline;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Blog Classic Section
@@ -6876,7 +6876,7 @@ body.visible-menu-bar .fullscreen-menu{
 	margin-top:-120px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Contact Page Section
@@ -6946,7 +6946,7 @@ body.visible-menu-bar .fullscreen-menu{
 	opacity:0.5;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Contact Form
@@ -6955,13 +6955,13 @@ body.visible-menu-bar .fullscreen-menu{
 ***/
 
 .contact-form{
-	
+
 }
 
 .contact-form .group-title h3{
 	position:relative;
 	color:#ffffff;
-	margin-bottom:10px;	
+	margin-bottom:10px;
 	text-transform:uppercase;
 }
 
@@ -7138,7 +7138,7 @@ body.visible-menu-bar .fullscreen-menu{
 .range-slider-one .ui-slider .ui-slider-range{
 	top:0px;
 	height:5px;
-	background:#cccccc;	
+	background:#cccccc;
 }
 
 .range-slider-one .ui-state-default,
@@ -7149,7 +7149,7 @@ body.visible-menu-bar .fullscreen-menu{
 	border:4px solid #ffffff;
 	background:#000000;
 	border-radius:0px;
-	cursor:pointer;	
+	cursor:pointer;
 }
 
 .range-slider-one .theme-btn{
@@ -7158,7 +7158,7 @@ body.visible-menu-bar .fullscreen-menu{
 }
 
 .range-slider-one .theme-btn:hover{
-	
+
 }
 
 /*Sidebar Realated Posts */
@@ -7185,7 +7185,7 @@ body.visible-menu-bar .fullscreen-menu{
 
 .sidebar .related-posts .post .post-thumb img{
 	display:block;
-	width:100%;	
+	width:100%;
 }
 
 .sidebar .related-posts .post h4{
@@ -7509,12 +7509,12 @@ body.visible-menu-bar .fullscreen-menu{
 
 .product-details .image-column .owl-dots,
 .product-details .image-column .owl-nav{
-	display:none;	
+	display:none;
 }
 
 .product-details .basic-details .details-header{
 	position:relative;
-	margin-bottom:0px;	
+	margin-bottom:0px;
 }
 
 .product-details .basic-details .details-header h5{
@@ -7527,7 +7527,7 @@ body.visible-menu-bar .fullscreen-menu{
 }
 
 .product-details .basic-details .details-header h5 a{
-	color:#333333;	
+	color:#333333;
 }
 
 .product-details .basic-details .details-header .rating{
@@ -7542,7 +7542,7 @@ body.visible-menu-bar .fullscreen-menu{
 
 .product-details .basic-details .details-header .rating .fa{
 	display:inline-block;
-	margin-right:1px;	
+	margin-right:1px;
 }
 
 .product-details .basic-details .details-header .rating .fa.light{
@@ -7613,7 +7613,7 @@ body.visible-menu-bar .fullscreen-menu{
 	line-height:24px;
 	padding:10px 32px !important;
 	height:54px !important;
-	box-shadow:none !important;	
+	box-shadow:none !important;
 	background-color:#000000;
 	color:#ffffff;
 	font-size:24px;
@@ -7624,13 +7624,13 @@ body.visible-menu-bar .fullscreen-menu{
 .product-details .basic-details .bootstrap-touchspin .input-group-btn-vertical > .btn,
 .cart-section .bootstrap-touchspin .input-group-btn-vertical > .btn{
 	padding:13px 10px;
-	background:none;	
+	background:none;
 	margin-left:-28px;
 }
 
 .product-details .bootstrap-touchspin .input-group-btn-vertical i,
 .cart-section .bootstrap-touchspin .input-group-btn-vertical i{
-	top:1px;	
+	top:1px;
 }
 
 .bootstrap-touchspin .glyphicon-chevron-up:before {
@@ -7694,7 +7694,7 @@ body.visible-menu-bar .fullscreen-menu{
 	font-family: 'MonumentExtended-Regular';
 }
 
-/*** 
+/***
 
 ====================================================================
 	Cart Section style
@@ -7709,7 +7709,7 @@ body.visible-menu-bar .fullscreen-menu{
 }
 
 .cart-section .cart-outer{
-	position:relative;	
+	position:relative;
 }
 
 .cart-section .table-outer{
@@ -7750,7 +7750,7 @@ body.visible-menu-bar .fullscreen-menu{
 
 .cart-table thead tr th.prod-column{
 	text-align:left;
-	padding-left:0px;	
+	padding-left:0px;
 }
 
 .cart-table tbody tr td{
@@ -7776,14 +7776,14 @@ body.visible-menu-bar .fullscreen-menu{
 
 .column.default-column .cart-table tbody tr .qty{
 	width:110px;
-	padding-right:20px;	
+	padding-right:20px;
 }
 
 .cart-table tbody tr .prod-column .column-box .prod-thumb{
 	position:absolute;
 	width:100px;
 	left:0px;
-	top:0px;	
+	top:0px;
 }
 
 .cart-table tbody tr .prod-column .column-box .prod-thumb img{
@@ -7800,7 +7800,7 @@ body.visible-menu-bar .fullscreen-menu{
 
 .cart-table tbody tr .sub-total{
 	font-weight:400;
-	color:#ffffff;	
+	color:#ffffff;
 	font-size:18px;
 	padding-left:20px;
 	font-family: 'Poppins', sans-serif;
@@ -7841,11 +7841,11 @@ body.visible-menu-bar .fullscreen-menu{
 }
 
 .cart-table tbody tr .remove{
-	
+
 }
 
 .cart-table tbody tr .remove-btn:hover{
-	
+
 }
 
 .cart-table tbody tr .remove-btn:hover .fa{
@@ -7854,7 +7854,7 @@ body.visible-menu-bar .fullscreen-menu{
 }
 
 .cart-table tbody tr td{
-	vertical-align:middle;	
+	vertical-align:middle;
 }
 
 .cart-table tbody tr td.price{
@@ -7916,7 +7916,7 @@ body.visible-menu-bar .fullscreen-menu{
 .cart-section .apply-coupon .form-group{
 	position:relative;
 	float:left;
-	margin-right:20px;	
+	margin-right:20px;
 }
 
 .cart-section .apply-coupon .form-group .coupon-btn{
@@ -7954,7 +7954,7 @@ body.visible-menu-bar .fullscreen-menu{
 
 .cart-section .estimate-form .row{
 	margin-left:-7px;
-	margin-right:-7px;	
+	margin-right:-7px;
 }
 
 .cart-section .estimate-form .row .form-group{
@@ -7981,12 +7981,12 @@ body.visible-menu-bar .fullscreen-menu{
 
 .bootstrap-touchspin .input-group-btn-vertical > .btn{
 	height:24px;
-	background:#e9e9e9;	
+	background:#e9e9e9;
 }
 
 .bootstrap-touchspin .input-group-btn-vertical i{
 	left:6px;
-	top:6px;	
+	top:6px;
 }
 
 .cart-total-box{
@@ -8063,7 +8063,7 @@ body.visible-menu-bar .fullscreen-menu{
 
 .shop-form .form-group{
 	position:relative;
-	margin-bottom:20px;	
+	margin-bottom:20px;
 }
 
 .billing-details .shop-form .sec-title{
@@ -8198,7 +8198,7 @@ body.visible-menu-bar .fullscreen-menu{
 .shop-form .form-group .field-label sup{
 	position:relative;
 	top:0px;
-	color:#797979;	
+	color:#797979;
 	font-size:16px;
 }
 
@@ -8253,7 +8253,7 @@ body.visible-menu-bar .fullscreen-menu{
 }
 
 .shop-form select option{
-	text-indent:15px;	
+	text-indent:15px;
 }
 
 .shop-form .coupon-box{
@@ -8324,16 +8324,16 @@ body.visible-menu-bar .fullscreen-menu{
 .shop-form textarea{
 	resize:none;
 	height:475px !important;
-	overflow:hidden;	
+	overflow:hidden;
 }
 
 .shop-form input:focus,
 .shop-form select:focus,
 .shop-form textarea:focus{
-	border-color:#ffffff;	
+	border-color:#ffffff;
 }
 
-/* Shop Order Box 
+/* Shop Order Box
 
 .shop-order-box{
 	position:relative;
@@ -8374,16 +8374,16 @@ body.visible-menu-bar .fullscreen-menu{
 .payment-options{
 	position:relative;
 	margin-top:20px;
-	margin-bottom:20px;	
+	margin-bottom:20px;
 }
 
 .checkout-page .payment-options li{
 	position:relative;
-	margin-bottom:15px;	
+	margin-bottom:15px;
 }
 
 .checkout-page .payment-options li .radio-option{
-	position:relative;		
+	position:relative;
 }
 
 .checkout-page .payment-options li .radio-option label{
@@ -8408,7 +8408,7 @@ body.visible-menu-bar .fullscreen-menu{
 .checkout-page .payment-options li .radio-option input[type="radio"]{
 	position:absolute;
 	left:0px;
-	top:5px;	
+	top:5px;
 }
 
 .checkout-page .payment-options li .radio-option #payment-3{
@@ -8460,14 +8460,14 @@ body.visible-menu-bar .fullscreen-menu{
 	top:-3px;
 	display:inline-block;
 	max-width:100%;
-	padding-left:30px;	
+	padding-left:30px;
 }
 
 .checkout-page .payment-options li .radio-option label img{
 	position:relative;
 	display:inline-block;
 	max-width:100%;
-	padding-left:30px;	
+	padding-left:30px;
 }*/
 
 .place-order .theme-btn{
@@ -8477,7 +8477,7 @@ body.visible-menu-bar .fullscreen-menu{
 .contact-form input.error,
 .contact-form select.error,
 .contact-form textarea.error{
-	border-color:#ff0000 !important;	
+	border-color:#ff0000 !important;
 }
 
 .contact-form label.error{
@@ -8488,10 +8488,10 @@ body.visible-menu-bar .fullscreen-menu{
 	text-transform:uppercase;
 	font-size:12px;
 	color:#ff0000;
-	font-weight:500;	
+	font-weight:500;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Purchase Popup
@@ -8552,14 +8552,14 @@ body.visible-menu-bar .fullscreen-menu{
 }
 
 .purchase-popup .close-search:hover{
-	opacity:0.70;	
+	opacity:0.70;
 }
 
 .purchase-popup .purchase-form{
 	position:relative;
 	padding:0px 15px 0px;
 	max-width:610px;
-	margin:0 auto;	
+	margin:0 auto;
 	margin-top:150px;
 	padding-bottom:100px;
 }
