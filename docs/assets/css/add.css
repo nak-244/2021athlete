@@ -16,3 +16,7 @@
 .size12 {
   font-size: 1.2rem;
 }
+
+.auto-container {
+    max-width: 1300px;
+}
